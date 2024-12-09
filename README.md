@@ -10,7 +10,12 @@ You can download the repository as zip and extract it, but when cloned with git,
 it can be updated easily with `git pull`.
 
 ## Adding Symbols
-_TODO_
+* Open the symbol library manager (`Preferences`->`Manage Symbol Libraries...`)
+* Click the folder icon (`Add Existing`) (make sure you add them under Global Libraries)
+* Select a library to add (files with `.kicad_sym` extension)
+* Repeat for every symbol library
+
+![Symbol manager screenshot](/docs/res/symbol_manager.jpg)
 
 ## Adding Footprints
 * Open the footprint library manager (`Preferences`->`Manage Footprint Libraries...`)
