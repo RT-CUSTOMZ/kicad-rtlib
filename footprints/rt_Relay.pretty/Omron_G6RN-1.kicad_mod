@@ -1,0 +1,303 @@
+(footprint "Omron_G6RN-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.75 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5ed5497-6f0c-47c5-a178-e8e58412e1ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Omron_G6RN-1"
+		(at 10.25 -4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e55e6f2-6733-4654-8c09-affabe2f3107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "761b6061-9375-4925-b98d-6fab0e64846b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "441dd947-86f6-46cb-9604-ee380675021c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61e1ea5c-7a8b-4053-bc6f-628c9fdad519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -9)
+		(end -2 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd9f0f1e-7d2d-40df-8282-d339a699979c")
+	)
+	(fp_line
+		(start -2 -9)
+		(end -1 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bbc5f67-d0b2-4db6-98ff-f05da77e446b")
+	)
+	(fp_line
+		(start -1 -9)
+		(end -2 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2843a46-d8c1-442c-8a01-98d92bed0d00")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 21 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb47e39a-3894-4ca0-8015-d6f48da5fbca")
+	)
+	(fp_line
+		(start 18 -9)
+		(end 1 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fee1a438-a939-4654-a8e9-7c3c4da58faf")
+	)
+	(fp_line
+		(start 23.5 1.5)
+		(end 27 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eeaed2aa-3859-407e-b409-9c67832da3c5")
+	)
+	(fp_line
+		(start 24.5 -9)
+		(end 20 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "479fafc5-f009-4bc1-97ee-eaa391f3e8ad")
+	)
+	(fp_line
+		(start 27 -9)
+		(end 26.5 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b34ddf40-b1d3-4e81-95bc-d2c7e156c2dc")
+	)
+	(fp_line
+		(start 27 1.5)
+		(end 27 -9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5693c273-348f-4b4f-bb57-0fee3179c852")
+	)
+	(fp_line
+		(start -2.25 -9.25)
+		(end 27.25 -9.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "89a49674-47ca-495c-af81-45b8fdf47baa")
+	)
+	(fp_line
+		(start -2.25 1.75)
+		(end -2.25 -9.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bc5ffff-b0e7-401f-b8b6-5dbd46775fbb")
+	)
+	(fp_line
+		(start 27.25 -9.25)
+		(end 27.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a811aa58-af85-4e3e-8374-114e5e74f503")
+	)
+	(fp_line
+		(start 27.25 1.75)
+		(end -2.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "76473898-7d58-490a-92c0-a365deca3665")
+	)
+	(fp_line
+		(start -1.6 -8.8)
+		(end -1.6 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "af54d79d-6cea-445a-a4bb-336988ad5cae")
+	)
+	(fp_line
+		(start -1.6 1.2)
+		(end 26.9 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c509059e-2b85-4441-856b-43245442b5ca")
+	)
+	(fp_line
+		(start 26.9 -8.8)
+		(end -1.6 -8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "65701055-ed49-4b14-8d43-44ee568622b5")
+	)
+	(fp_line
+		(start 26.9 1.2)
+		(end 26.9 -8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0abd6373-da76-40ba-995b-32dfbec48417")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.25 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2be1e532-1dc1-48b3-83ba-3b2251cf3b24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "395bb67c-a6fb-437e-bccb-d45b374b5dc1")
+	)
+	(pad "2" thru_hole circle
+		(at 22.2 0)
+		(size 2.8 2.8)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "295792dc-2b38-484d-8168-5ce2e9c70d57")
+	)
+	(pad "3" thru_hole circle
+		(at 25.4 -7.62)
+		(size 2.8 2.8)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2304ca90-78fc-4f8f-b24c-4fd215dfb32b")
+	)
+	(pad "4" thru_hole circle
+		(at 19 -7.62)
+		(size 2.8 2.8)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a757997d-7261-4af0-8728-11cd05e30ad3")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -7.62)
+		(size 2.8 2.8)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6db946d4-e6d9-428c-8cbe-48fb862be9b7")
+	)
+	(model "${RTLIB_3DMODEL_DIR}/Omron_G6RN-1.step"
+		(offset
+			(xyz -1.6 -1.19 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
