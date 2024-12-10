@@ -1,0 +1,329 @@
+(footprint "Transformer_Schaffer_BV_222-0-11_235"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -22 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e1c9b6c6-afde-4f6c-a260-03ba47cc8506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_Schaffer_BV_222-0-11_235"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53067e8b-8108-462e-9913-7f010fa28875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a448e705-ad27-41ce-81f2-a0352eb0969a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10dee573-a057-49fb-9ce5-23858dea05f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transformer, 2x115V prim, 2x6V 1.25VA sec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f86dd0dc-de4a-4411-9c9e-e2a85799951f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -26.25 -21)
+		(end -26.25 21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf95f830-ca28-4ec7-aac7-5a4ad1adc1f0")
+	)
+	(fp_line
+		(start -26.25 21)
+		(end 26.25 21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7bbcec0-cb4c-44a9-a5e9-4c92be767dcb")
+	)
+	(fp_line
+		(start 26.25 -21)
+		(end -26.25 -21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f00eede8-b712-4594-992c-45d5f0b87432")
+	)
+	(fp_line
+		(start 26.25 21)
+		(end 26.25 -21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42d07479-e9fd-4169-85b2-b2d44a8c039d")
+	)
+	(fp_line
+		(start -26.5 -21.25)
+		(end -26.5 21.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "758c590b-13cd-45c8-bdce-d81251b9adf5")
+	)
+	(fp_line
+		(start -26.5 21.25)
+		(end 26.5 21.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e44fef31-4241-4a55-9b4e-330fb20f1400")
+	)
+	(fp_line
+		(start 26.5 -21.25)
+		(end -26.5 -21.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "86b9d18a-292a-4a01-8468-d7aa681edefb")
+	)
+	(fp_line
+		(start 26.5 21.25)
+		(end 26.5 -21.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecbbdd6f-7d76-44e1-b145-a892adcc4136")
+	)
+	(fp_line
+		(start -26 -20.75)
+		(end 26 -20.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2d00a2c2-4405-42ff-8e78-6055d379cfb1")
+	)
+	(fp_line
+		(start -26 20.75)
+		(end -26 -20.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "03017421-0de3-4c1e-8f6c-30461856011a")
+	)
+	(fp_line
+		(start 26 -20.75)
+		(end 26 20.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d48399a4-93f0-4431-87c8-7773ab66b13d")
+	)
+	(fp_line
+		(start 26 20.75)
+		(end -26 20.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "455c2448-fbca-43ed-b2e3-ee9a8e64be31")
+	)
+	(fp_text user "0 - 6V"
+		(at 11 -7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99c73e42-8688-468c-8fbf-6c12eeb1d66b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "115V - 0"
+		(at -9 -10 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7498965-1cf2-4912-bc4c-ae36f8392b37")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf3f5917-6c39-48a3-aabb-370035468381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "115V - 0"
+		(at -9 10 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ebd8ce6f-d3df-4d22-a56a-88a412e86f03")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "0 - 6V"
+		(at 11 18 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec4b3c01-006e-4157-b3b8-1719755902a6")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -15 -15)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5af7c705-c6fe-4073-b20c-79bfeddcdf90")
+	)
+	(pad "2" thru_hole circle
+		(at -15 -5)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e3fe483-90ff-4583-9f6c-46b92c98dcd3")
+	)
+	(pad "3" thru_hole circle
+		(at -15 5)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3808a588-c657-4f5d-beae-8cd03e18071d")
+	)
+	(pad "4" thru_hole circle
+		(at -15 15)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ee00701-6337-4716-bf43-d0ea3b5723af")
+	)
+	(pad "5" thru_hole circle
+		(at 15 -15)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11d7f329-89ec-4553-8581-8c5ee14f4972")
+	)
+	(pad "6" thru_hole circle
+		(at 15 -10)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2757be96-6241-4649-a23d-048328b49d1e")
+	)
+	(pad "7" thru_hole circle
+		(at 15 10)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e58d1e63-a62b-49c1-98c6-ba21441405c6")
+	)
+	(pad "8" thru_hole circle
+		(at 15 15)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86d8b951-57c7-4103-baeb-ec948d10d48e")
+	)
+	(model "${RTLIB_3DMODEL_DIR}/Schaffer_BV_220-0-11_235.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
