@@ -1,0 +1,291 @@
+(footprint "Transformer_Block_PT30-2-18"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Block PT30/2/18")
+	(tags "Transformer, Trafo, 18V, 230V, 15VA, 30VA")
+	(property "Reference" "REF**"
+		(at 0 -28.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e58e0ded-203d-4ba1-8f7d-9dd7a8d1b327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Block PT30/2/18"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea035951-414d-4a47-b23b-52c4f7737acf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb5facc1-2d7b-4a97-ae0b-13605dc32edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.block.eu/de_DE/produktvariante/pt-30218-abgekuendigte-artikel-nicht-mehr-lieferbar"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e02e185-e25b-42e5-be4a-c07075726155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5625dc1-34b6-4828-b19d-34fe9590c3c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -32.2 -27.2)
+		(end -32.2 27.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a31a666-c1da-464a-acb4-2b48282c9794")
+	)
+	(fp_line
+		(start -32.2 27.2)
+		(end 32.2 27.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c598116-60f4-442e-9556-3565a698af75")
+	)
+	(fp_line
+		(start 32.2 -27.2)
+		(end -32.2 -27.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e660a59-077f-4843-a317-9a682437d4a2")
+	)
+	(fp_line
+		(start 32.2 27.2)
+		(end 32.2 -27.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20dad09b-bb00-47ea-b66b-2bfc32ab7ec6")
+	)
+	(fp_line
+		(start -32.4 -27.4)
+		(end -32.4 27.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "baa0fdd3-ff6c-44c1-a67b-bb73b2e14416")
+	)
+	(fp_line
+		(start -32.4 27.4)
+		(end 32.4 27.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bab3c5a0-8d18-482c-bcc5-d94c04de0d5e")
+	)
+	(fp_line
+		(start 32.4 -27.4)
+		(end -32.4 -27.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ba80bf6-2757-4795-811b-d66754f29278")
+	)
+	(fp_line
+		(start 32.4 27.4)
+		(end 32.4 -27.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "83c6efda-caf5-4806-bb9c-54badfc07973")
+	)
+	(fp_line
+		(start -32 -27)
+		(end -32 27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "caa9ff6f-2b09-479f-867e-0818683226d2")
+	)
+	(fp_line
+		(start -32 27)
+		(end 32 27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b302ace0-9f40-414d-86a1-49cf66fc03da")
+	)
+	(fp_line
+		(start 32 -27)
+		(end -32 -27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8617f001-f507-4ab9-b773-cf17d8b984b2")
+	)
+	(fp_line
+		(start 32 27)
+		(end 32 -27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "94352267-4229-46a8-885c-eadffd356f72")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3293806-b9d6-4dec-8814-ef5963c9a342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -26.25 -20)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "06fed70b-ec43-41e7-8ca7-833547d253bc")
+	)
+	(pad "" np_thru_hole circle
+		(at -26.25 20)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "89fadd00-ff91-4c62-bb5c-068bc20298db")
+	)
+	(pad "" np_thru_hole circle
+		(at 26.25 -20)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6797cd59-3244-4b3f-b36f-fbb0d7fdb2f7")
+	)
+	(pad "" np_thru_hole circle
+		(at 26.25 20)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d68025af-3bf0-4617-8948-4ef9bebede2b")
+	)
+	(pad "1" thru_hole circle
+		(at -15 16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cdd6fc88-a237-4dd3-b519-b8e3fc17ff5c")
+	)
+	(pad "2" thru_hole circle
+		(at 15 16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4ac4ce4-6b2b-4bd2-bb5a-873bb1ec7f17")
+	)
+	(pad "3" thru_hole circle
+		(at 15 -16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b7a6795-6d49-4657-81fb-cfcf362a6f6d")
+	)
+	(pad "4" thru_hole circle
+		(at 5 -16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "602b9f5a-c47a-4123-ac5f-d5e7554948ce")
+	)
+	(pad "5" thru_hole circle
+		(at -5 -16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdab387d-5e03-492a-b433-b3b6d57ed44a")
+	)
+	(pad "6" thru_hole circle
+		(at -15 -16.25)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6bd2e65-41b1-4b38-995e-ba445e7bcd6e")
+	)
+	(model "${RTLIB_3DMODEL_DIR}/BLOCK_PT30-2-18.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
