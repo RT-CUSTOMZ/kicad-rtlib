@@ -12,16 +12,16 @@ it can be updated easily with `git pull`.
 ## Adding Symbols
 * Open the symbol library manager (`Preferences`->`Manage Symbol Libraries...`)
 * Click the folder icon (`Add Existing`) (make sure you add them under Global Libraries)
-* Select a library to add (files with `.kicad_sym` extension)
-* Repeat for every symbol library
+* Select one or more library to add (files with `.kicad_sym` extension)
+* Repeat for every additional symbol library
 
 ![Symbol manager screenshot](/docs/res/symbol_manager.jpg)
 
 ## Adding Footprints
 * Open the footprint library manager (`Preferences`->`Manage Footprint Libraries...`)
 * Click the folder icon (`Add Existing`) (make sure you add them under Global Libraries)
-* Select a library to add (folders with `.pretty` extension)
-* Repeat for every footprint library
+* Select one or more library to add (folders with `.pretty` extension)
+* Repeat for every additional footprint library
 
 ![Footprint manager screenshot](/docs/res/footprint_manager.jpg)
 
