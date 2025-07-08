@@ -1215,6 +1215,25 @@
 					(type background)
 				)
 			)
+			(pin unspecified line
+				(at 53.34 36.83 180)
+				(length 2.54)
+				(hide yes)
+				(name "Thermal_Pad"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
