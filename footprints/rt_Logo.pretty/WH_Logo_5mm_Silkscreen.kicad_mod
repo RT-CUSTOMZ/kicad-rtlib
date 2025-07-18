@@ -1,0 +1,104 @@
+(footprint "WH_Logo_5mm_Silkscreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.4 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "476b709f-6d8c-4174-b507-8d02926058ea")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "WH Logo"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae153f8d-e8dc-4d3f-9241-061658bf4a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778f64b1-4811-4a44-b9f6-bd12fa088e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db86ea40-9b7e-4dc9-a1a8-f45427ccc45c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.572292 0.87056) (xy 2.059384 1.178826) (xy 1.326212 0.714887) (xy 0.845481 1.003915) (xy 1.578654 1.467853)
+			(xy 1.065852 1.7762) (xy -0.790169 0.601486) (xy -0.277395 0.293221) (xy 0.370037 0.702931) (xy 0.850768 0.413903)
+			(xy 0.203469 0.004272) (xy 0.71627 -0.304072)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "37b3af17-8496-4550-98bf-df7abffb5198")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 0.6) (xy -1.224908 0.859801) (xy -1.362009 -0.442315) (xy -1.365915 -0.439897) (xy -1.529321 1.045791)
+			(xy -1.952315 1.304477) (xy -2.329184 -0.739556) (xy -1.900397 -1.001721) (xy -1.735849 0.321652)
+			(xy -1.731943 0.319234) (xy -1.554429 -1.213218) (xy -1.171024 -1.447699) (xy -1.012428 -0.139497)
+			(xy -1.008442 -0.141916) (xy -0.825162 -1.65909) (xy -0.398208 -1.919928)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "66c732c7-9301-49d4-823c-5da67fea99ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9023ce90-ec60-40f4-b36d-9089ce95a85e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "365f331d-20b5-4aa9-abea-db1b095d9476")
+		(members "37b3af17-8496-4550-98bf-df7abffb5198" "66c732c7-9301-49d4-823c-5da67fea99ac")
+	)
+	(embedded_fonts no)
+)
