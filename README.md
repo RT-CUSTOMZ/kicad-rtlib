@@ -33,6 +33,11 @@ it can be updated easily with `git pull`.
 
 ![Configure Paths screenshot](/docs/res/configure_paths.jpg)
 
+## Graphics
+Additionally the [grapics](/graphics) folder contains graphics and logos in svg format.
+These can be imported directly onto a board.
+This has the advantage that the layer and scale can be choosen freely.
+
 # Contributing
 For conventions how to design symbols, footprints and models, see the [Kicad Library Conventions](https://klc.kicad.org/).
 
