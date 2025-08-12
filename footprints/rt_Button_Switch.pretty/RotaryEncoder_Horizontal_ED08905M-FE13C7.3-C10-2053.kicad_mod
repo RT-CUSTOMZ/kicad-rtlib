@@ -294,15 +294,15 @@
 		(uuid "994a072f-7fcc-40c7-b0a0-8ba7f7819616")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEC09-2xxxF-Sxxxx.step"
+	(model "${RTLIB_3DMODEL_DIR}/Rotary_Encoder_ED08905M.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 3.75 2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
